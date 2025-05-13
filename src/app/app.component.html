@@ -1,0 +1,12 @@
+<h1>Basics of React Forms</h1>
+<form actions="" method="post">
+  <input type="text" placeholder="Enter your name" [formControl]="name">
+  <br>
+  <br>
+  
+  <input type="text" placeholder="Enter your password" [formControl]="password">
+  <br>
+  <br>
+  <button type="button" (click)="displayvalue()">Login</button>
+  <button type="button" (click)="setValues()">Set Values in field</button>
+</form>
